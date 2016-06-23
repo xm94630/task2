@@ -28,5 +28,11 @@
     "npm": "^3.9.6",
     "react-tools": "^0.13.3",
     "style-loader": "^0.13.1"
+  },
+  "browserify": {
+    "transform": [
+      ["reactify", {"es6": true}]
+    ]
   }
+      
 }

@@ -1,9 +1,13 @@
+require("../css/common.css");
+
+//依赖
 var name = require('./name.js');
 
+//组件demo
 var Xm = React.createClass({displayName: "Xm",
   getInitialState:function(){
     return {
-      say:name
+      say:'Hello,'+name
     }
   },
   myChange:function(){
@@ -33,3 +37,13 @@ React.render(
   React.createElement(Xm, null),
   document.getElementById('example')
 );
+
+//ES6
+function foo() {
+  var a = 'es6';
+  if(true){
+    let a = 'es5';
+  }
+  console.log(a);
+}
+foo();
