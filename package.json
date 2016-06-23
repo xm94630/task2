@@ -1,0 +1,32 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "description": "在自己的开发机上打一个新的前端自动化环境（gulp + webpack + es6 + react）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xm94630/task2.git"
+  },
+  "author": "xm94630",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xm94630/task2/issues"
+  },
+  "homepage": "https://github.com/xm94630/task2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "css-loader": "^0.23.1",
+    "gulp": "^3.9.1",
+    "gulp-jst": "^0.1.1",
+    "gulp-jst2": "^0.1.4",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-reactify": "^3.0.1",
+    "gulp-webpack": "^1.5.0",
+    "npm": "^3.9.6",
+    "react-tools": "^0.13.3",
+    "style-loader": "^0.13.1"
+  }
+}

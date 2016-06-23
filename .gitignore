@@ -3,3 +3,4 @@ dist
 .sass-cache
 bower_components
 test/bower_component
+node_modules/
