@@ -22,3 +22,11 @@ gulp:
 es6:
 - [http://www.csdn.net/article/2015-05-24/2824757-building-modular-javascript-applications-in-es6-with-react-webpack-and-babel?reload=1](http://www.csdn.net/article/2015-05-24/2824757-building-modular-javascript-applications-in-es6-with-react-webpack-and-babel?reload=1)
 - [http://www.tuicool.com/articles/VZbuY3y](http://www.csdn.net/article/2015-05-24/2824757-building-modular-javascript-applications-in-es6-with-react-webpack-and-babel?reload=1)
+
+
+###使用说明（默认已经安装node、gulp等开发环境）：
+- git clone git@github.com:xm94630/task2.git
+- 进入项目文件，执行 npm install
+- 开启gulp服务，执行 gulp 
+- 构建项目，执行 gulp build
+- dist下的就是构建完毕的项目
